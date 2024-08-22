@@ -1,0 +1,182 @@
+@media (min-width:1400px) {}
+
+@media (min-width:1200px) and (max-width:1399.98px) {
+    .filter-img figure {
+        width: 31.65%;
+    }
+
+    .filter-img figure img {
+        width: 100%;
+    }
+
+    /* filter section end */
+
+}
+
+
+@media (min-width:992px) and (max-width:1199.98px) {
+    .filter-img figure {
+        width: 31.65%;
+    }
+
+    .filter-img figure img {
+        width: 100%;
+    }
+
+    /* filter section end */
+    .avatar-img {
+        flex-direction: column;
+    }
+    .avatar-pic{
+        width: 100%;
+    }
+
+    .watch-list-data h3 {
+        text-align: center;
+    }
+
+
+
+}
+
+@media (min-width:776px) and (max-width:991.98px) {
+    .filter-img figure {
+        width: 45.66%;
+    }
+
+    .filter-img figure img {
+        width: 100%;
+    }
+
+    /* filter section end */
+    .plan-card {
+        flex-wrap: wrap;
+
+    }
+
+    .plan-card .card {
+        width: 48%;
+    }
+
+    /* choose-btn=section-end */
+    .avatar-img {
+        flex-direction: column;
+    }
+    .avatar-pic{
+        width: 100%;
+    }
+
+    .watch-list-data h3 {
+        text-align: center;
+    } 
+
+
+
+}
+
+@media (min-width:576px) and (max-width:775.98px) {
+    .container .banner-info {
+        width: 100%;
+    }
+
+    .container .banner-btns {
+        text-align: center;
+    }
+
+    /* banner section end */
+    .filter-img figure {
+        width: 47.7%;
+    }
+
+    .filter-img figure img {
+        width: 100%;
+    }
+
+    /* filter section end */
+    .plan-card {
+        flex-wrap: wrap;
+        gap: 21px;
+
+    }
+
+    .plan-card .card {
+        width: 48%;
+    }
+
+    /* choose-btn=section-end */
+    .avatar-img {
+        flex-direction: column;
+    }
+    .avatar-pic{
+        width: 100%;
+    }
+
+    .watch-list-data h3 {
+        text-align: center;
+    }
+     /* avartar-img-section end */
+
+    .footer-item02 ul {
+        flex-direction: column;
+    }
+    /* footer end */
+}
+
+
+@media (max-width:575.98px) {
+    .container .banner-info {
+        width: 100%;
+    }
+
+    .container .banner-btns {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* banner section end */
+
+    .filter-img figure {
+        width: 100%;
+    }
+
+    .filter-img figure img {
+        width: 100%;
+    }
+
+    /* filter section end */
+    .plan-card {
+        flex-wrap: wrap;
+       
+
+    }
+
+    .plan-card .card {
+        width: 100%;
+    }
+
+    .button {
+        padding: 20px;
+    }
+
+    /* choose-btn=section-end */
+
+    .avatar-img {
+        flex-direction: column;
+        text-align: center;
+    }
+    /* avartar-img-section */
+
+    .watch-list-data h3 {
+        text-align: center;
+    }
+    .avatar-pic{
+        width: 100%;
+    }
+    /* footer section */
+    .footer-item01 ul {
+        flex-direction: column;  
+    }
+    .footer-item02 ul {
+        flex-direction: column;
+    }
+}
